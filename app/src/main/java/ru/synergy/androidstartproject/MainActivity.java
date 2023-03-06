@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.constraintlayout.widget.Constraints;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.widget.TextView;
 
@@ -15,6 +16,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate( savedInstanceState );
        setContentView(R.layout.activity_main);
+
+        TextView textView = (TextView) findViewById( R.id.normal );
+
+        textView.setText("Text from Java code");
+
 
 
   //     TextView textView = (TextView) findViewById( R.id.header );
