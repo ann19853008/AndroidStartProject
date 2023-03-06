@@ -1,5 +1,7 @@
 package ru.synergy.androidstartproject;
 
+import static ru.synergy.androidstartproject.R.layout.activity_main;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.constraintlayout.widget.Constraints;
@@ -10,14 +12,14 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
 
     @Override
-    protected void onCreate( Bundle savedInstanceState ) {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate( savedInstanceState );
-       setContentView( R.layout.second_layout );
+       setContentView(R.layout.activity_main);
 
 
-       TextView textView = (TextView) findViewById( R.id.header );
+  //     TextView textView = (TextView) findViewById( R.id.header );
 
-       textView.setText( "Hello from java" );
+//       textView.setText( "Hello from java" );
 
 //        ConstraintLayout constraintLayout=new ConstraintLayout( this );
 //
